@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-iframe {
-	border: 0;
-}
-
 details {
 	background-color: #faf9f6;
 	border: 1px solid #d8e0f7;
@@ -17,10 +13,6 @@ details {
 
 details summary { 
 	cursor: pointer;
-}
-  
-details summary > * {
-	display: inline;
 }
 
 .copyright {
@@ -90,75 +82,6 @@ main, .sidebar, .site-footer {
 .primary-menu .active {
 	border-color: #555;
 	border-width: 2px;
-}
-
-/* === TABLE === */
-
-main table {
-	border: 1px solid #bbb; 
-	border-collapse: collapse;
- }
- 
-main caption {
-	font-weight: bold;
-	color: #555;
-}
-  
-main th {
-	background: #dbdbdb;
-	padding: 5px 4px;
-	text-shadow: 1px 1px #fff;
-	border-right: 1px solid #c8c7c7;
-	color:#333;
-}
-
-main tr:nth-child(even) {
-	background: #ebebeb;
-}
-
-main tr:nth-child(odd) {
-	background: #fff;
-}
-
-main td { 
-	color: #747474;
-	padding: 6px;
-	border-right: 1px solid #c8c7c7;
-	border-bottom: 1px solid #c8c7c7;
-}
-
-main tfoot td{
-	background: #dbdbdb;
-	text-shadow: 1px 1px #fff;
-	color:#555;
-	font-size: 0.8em;
-	font-style: italic;
-}
-
-/* === LIST === */
-
-main ul ul li {
-	font-style: italic;
-	color: red;
-}
-
-main ul {
-	list-style-type: square;
-}
-
-
-/* === FLEXIBLE MEDIA === */
-
-img, video {
-	  max-width: 100%;
-	  height: auto;
-}
-
-/* responsive iframe media -- the iframe is inside of a div with a class named "media"  */
-
-.media iframe {
-	aspect-ratio: 16 / 9;
-	width: 100%;
 }
 
 /* === DESKTOP LAYOUT === */
